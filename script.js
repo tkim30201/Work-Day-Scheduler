@@ -30,7 +30,7 @@ $("#10am-save").click(function () {
     });
 });
 
-$$("#11am-save").click(function () {
+$("#11am-save").click(function () {
     $("task11am").each(function () {
         var id = $(this).attr('id');
         var value = $(this).val();
